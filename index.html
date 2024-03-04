@@ -9,7 +9,7 @@
 <body>
   <div class="container">
     <div class="login-container">
-      <h2>Login</h2>
+
       <form id="login-form">
         <label for="username">Username:</label>
         <input type="text" id="username" name="username" required>
@@ -25,21 +25,49 @@
       <div id="paperwork-list" class="paperwork">
         <h3>Paperwork Needed</h3>
         <div class="assignment">
-          <h4>Google Classroom</h4>
-          <p>Complete the assignment in Google Classroom</p>
-          <button class="btn">Go to Assignment</button>
+        </br>
+          <a href="classroom.google.com">
+          <li><button class="btn">Go to Google Classroom Page</button></li>
+        </a>
         </div>
         <div class="assignment">
           <h4>Checklist</h4>
-          <p>Review the checklist and mark completed items</p>
-          <button class="btn">View Checklist</button>
+            <input type="checkbox" id="checklist">
+            <label for="checklist">Application</label>
+        </br>
+            <input type="checkbox" id="checklist">
+            <label for="checklist">Slides</label>
+        </br>
+          <input type="checkbox" id="checklist">
+            <label for="checklist">Approval Notification</label>
+        </br>
+          <input type="checkbox" id="checklist">
+            <label for="checklist">Script</label>
+        </br>
+          <input type="checkbox" id="checklist">
+           <label for="checklist">Forms</label>
+        </br>
+          <input type="checkbox" id="checklist">
+           <label for="checklist">Go to Houston and Check-In for Badging</label>
+        </br>
+          <input type="checkbox" id="checklist">
+           <label for="checklist">Check-In for Conference</label>
+        </br>
+          <input type="checkbox" id="checklist">
+           <label for="checklist">Present</label>
+        </br>
+          <input type="checkbox" id="checklist">
+           <label for="checklist">Clean Up, Sign Out</label>
         </div>
       </div>
       <div id="due-dates">
         <h3>Due Dates</h3>
         <ul>
-          <li>First Deadline - MM/DD/YYYY</li>
-          <li>Second Deadline - MM/DD/YYYY</li>
+          <li>Applications Open - January 3, 2024</li>
+          <li>Applications Close -Feburary 9, 2024</li>
+          <li>Presenters Notified* - March 8, 2024</li>
+          <li> Conference Schedule Released* - March 25, 2024</li>
+          *Subject to change.
         </ul>
       </div>
       <div id="logistics">
