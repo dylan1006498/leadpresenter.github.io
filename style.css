@@ -1,1 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container, .portal-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.login-container h2, .portal-container h2, .portal-container h3, .portal-container h4 {
+  color: #333;
+}
+
+.login-container label, .portal-container label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.login-container input, .portal-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-container button, .portal-container button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-container button:hover, .portal-container button:hover {
+  background-color: #0056b3;
+}
+
+.portal-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.portal-container li {
+  margin-bottom: 5px;
+}
+
+#app-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.assignment {
+  background-color: #f0f0f0;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.assignment h4 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.assignment p {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #666;
+}
+
+.assignment .btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.assignment .btn:hover {
+  background-color: #0056b3;
+}
