@@ -1,1 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FIRST Championship Conference Lead Presenter Portal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="login-container">
+      <h2>Login</h2>
+      <form id="login-form">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <button type="submit">Login</button>
+      </form>
+    </div>
 
+    <div class="portal-container" style="display: none;">
+      <h2>Conference Lead Presenter Portal</h2>
+      <h3>Welcome, <span id="user"></span>!</h3>
+      <div id="paperwork-list" class="paperwork">
+        <h3>Paperwork Needed</h3>
+        <div class="assignment">
+          <h4>Google Classroom</h4>
+          <p>Complete the assignment in Google Classroom</p>
+          <button class="btn">Go to Assignment</button>
+        </div>
+        <div class="assignment">
+          <h4>Checklist</h4>
+          <p>Review the checklist and mark completed items</p>
+          <button class="btn">View Checklist</button>
+        </div>
+      </div>
+      <div id="due-dates">
+        <h3>Due Dates</h3>
+        <ul>
+          <li>First Deadline - MM/DD/YYYY</li>
+          <li>Second Deadline - MM/DD/YYYY</li>
+        </ul>
+      </div>
+      <div id="logistics">
+        <h3>Logistics</h3>
+        <p>Link to the app: <a href="#" id="app-link">Click Here</a></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
