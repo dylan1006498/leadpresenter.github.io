@@ -99,3 +99,33 @@ body {
 .assignment .btn:hover {
   background-color: #0056b3;
 }
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"] + label:before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border: 2px solid #007bff;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+input[type="checkbox"]:checked + label:before {
+  background-color: #007bff;
+}
+
+input[type="checkbox"] + label:after {
+  content: '✔';
+  display: inline-block;
+  font-size: 16px;
+  color: #fff;
+  visibility: hidden;
+}
+
+input[type="checkbox"]:checked + label:after {
+  visibility: visible;
+}
